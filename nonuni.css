@@ -1,0 +1,20 @@
+.container{
+  max-width:1180px;
+    margin:auto;
+}
+img{
+  width:600px;
+  height:600px;
+}
+h1{
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+}
+.des{
+  padding-top: 20px;
+}

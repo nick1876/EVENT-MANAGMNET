@@ -1,0 +1,47 @@
+
+*{
+  padding:0px;
+  margin:0px;
+}
+.header{
+  background-color: #063970
+}
+.container{
+  overflow: hidden;
+  padding: 0px 20px 0px 60px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.text{
+  color: white;
+  padding:12px 24px;
+}
+.logo{
+  margin: 50px 500px;
+}
+a{
+  text-decoration: none;
+  display:inline-block;
+  color:black;
+}
+.login{
+  margin-left: 300px;
+}
+.log{
+  background-image: url(./images/asset\ 1.jpeg);
+  background-repeat: no-repeat;
+  width:400px;
+  height:500px;
+}
+.log1{
+  background-image: url(./images/asset\ 3.jpeg);
+  background-repeat: no-repeat;
+  width:400px;
+  height:500px;
+}
+.logo-text{
+  padding-top:240px;
+  padding-left: 100px;
+}

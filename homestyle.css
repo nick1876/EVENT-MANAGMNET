@@ -1,0 +1,141 @@
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  display:inline-block;
+  color:black;
+
+}
+.img{
+  width:100%;
+}
+h1{
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Poppins', sans-serif;
+}
+.event-type{
+  padding:50px 500px;
+}
+a{
+  margin-left: 20px;
+}
+.pri-btn{
+  border: 2px solid black;
+  padding: 10px;
+}
+header{
+  margin-top:0px;
+  position:absolute;
+  height: 70px;
+  width:100%;
+}
+.main-nav{
+  justify-content:space-between;
+  gap:100px;
+}
+.main-nav span{
+  text-decoration: underline;
+  color:#6c14d0;
+}
+.main-nav h1{
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-links{
+  height:150px;
+  padding: 60px;
+}
+.nav-links ul{
+  justify-content: end;
+  gap:40px;
+  font-size: 20px;
+}
+
+ul{
+  list-style: none;
+}
+.container{
+  max-width:1180px;
+    margin:auto;
+}
+
+.about{
+    padding:60px var(--padding-inline-section) 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.des{
+
+  gap:-5px;
+  flex-direction: column;
+  max-width: 45%;
+}
+.abt{
+  gap:5px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.abt p{
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: inline-block;
+  word-wrap: break-word;
+}
+.heading{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+footer{
+    padding: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+footer div p {
+    margin-left: 0px;
+}
+footer div p i {
+    padding-right: 20px;
+}
+.con3 input{
+    border-radius: 10px;
+}
+
+.con1 h1{
+  font-size: 30px;
+}
+.con3 h1{
+  font-size: 30px;
+}
+.con1 a{
+  color: white;
+  transition: 0.1s;
+}
+ a:hover{
+  color:blue;
+}
+.des img{
+ transition:0.2s;
+ 
+}
+.des:hover img{
+  transform:scayyuyuuuuuuuuuuuuuuuuule(1.1);
+  cursor:pointer;
+  -webkit-transform:scayyuyuuuuuuuuuuuuuuuuule(1.1);
+  -moz-transform:scayyuyuuuuuuuuuuuuuuuuule(1.1);
+  -ms-transform:scayyuyuuuuuuuuuuuuuuuuule(1.1);
+  -o-transform:scayyuyuuuuuuuuuuuuuuuuule(1.1);
+}
